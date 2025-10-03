@@ -24,6 +24,7 @@ public class MyUtils {
         long res = 1;
         for (int i = 2; i <= n; i++) res *= i;
         return res;
+        // Recursivament és més elegant pero així és millor. Comentari afegit per fer justificar un commit
     }
 }
 
